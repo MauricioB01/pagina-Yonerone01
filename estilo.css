@@ -1,0 +1,73 @@
+*{
+padding: 0;
+margin: 0;
+}
+h1{
+text-align:center;
+font-family:Old English text MT;
+background: yellow;
+color: black;
+padding: 20px;
+width: 35%;
+}
+nav ul{
+font-family:Algerian;
+background: grey;
+width: 100%;
+list-style-type: none;
+text-align: center;
+padding: 20px;
+}
+nav li{
+display: inline-flex;
+}
+nav a{
+text-decoration: none;
+color: white;
+padding 10px;
+width: 150px;
+}
+nav li:hover{
+background-color:black;
+}
+h2{
+ text-align: center;
+ font-family: Old English text MT;
+ background: grey;
+ color: black;
+padding: 30px;
+width: 95%;
+}
+.btn-neon{
+position: relative;
+display: inline-block;
+padding: 20px;
+color: yellow;
+letter-spacing: 15px;
+font-size:30px;
+font-family:Old English text MT;
+text-decoration: none;
+overflow:hidden;
+transition: 0.2s;
+}
+.btn-neon:hover{
+background:yellow;
+box-shadow: 0 0 10px yellow, 0 0 40px
+yellow, 0 0 80px yellow;
+transition-delay: 0.5s;
+}
+contenedor{
+height: 1200px;
+}
+img{
+transition: all 0.5s ease;
+border-style: solid;
+border-color:yellow;
+}
+img:hover{
+transform: scale(0.9);
+}
+contenedor img{
+width: 50%;
+float: left;
+}

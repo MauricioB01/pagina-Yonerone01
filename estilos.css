@@ -1,0 +1,60 @@
+header{
+background: grey;
+list-style-type: none;
+padding: 20px;
+width: 98%;
+color:white;
+font-family:Old English text MT;
+font-size:400%;
+}
+nav{
+background: yellow;
+font-family:Algerian;
+font-size:200%;
+padding: 40px;
+width: 70%;
+}
+form{
+background-color: yellow;
+border-radius: 3px;
+color: black;
+font-size: 100%;
+padding: 20px;
+margin: 0 auto;
+width: 300px;
+font-family:Old English text MT;
+}
+
+input, textarea{
+border: 0;
+outline: none;
+width: 280px;
+}
+.field{
+border: solid 1px #ccc;
+padding: 10px;
+}
+.field:focus{
+border-color: black;
+}
+.center-content{
+text-align: left;
+}
+.btn-neon{
+position: relative;
+display: inline-block;
+padding: 20px;
+color: yellow;
+letter-spacing: 15px;
+font-size:30px;
+font-family:Old English text MT;
+text-decoration: none;
+overflow:hidden;
+transition: 0.2s;
+}
+.btn-neon:hover{
+background:yellow;
+box-shadow: 0 0 10px yellow, 0 0 40px
+yellow, 0 0 80px yellow;
+transition-delay: 0.5s;
+}

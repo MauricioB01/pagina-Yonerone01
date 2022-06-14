@@ -1,0 +1,46 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+background: yellow;
+list-style-type: none;
+padding: 20px;
+width: 98%;
+font-family:Old English text MT;
+font-size:400%;
+color:black;
+}
+contenedor{
+height: 1200px;
+}
+img{
+transition: all 0.5s ease;
+border-style: solid;
+border-color:yellow;
+}
+img:hover{
+transform: scale(0.9);
+}
+contenedor img{
+width: 50%;
+float: left;
+}
+.btn-neon{
+position: relative;
+display: inline-block;
+padding: 20px;
+color: yellow;
+letter-spacing: 15px;
+font-size:30px;
+font-family:Old English text MT;
+text-decoration: none;
+overflow:hidden;
+transition: 0.2s;
+}
+.btn-neon:hover{
+background:yellow;
+box-shadow: 0 0 10px yellow, 0 0 40px
+yellow, 0 0 80px yellow;
+transition-delay: 0.5s;
+}
